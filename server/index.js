@@ -8,9 +8,9 @@ app.use(express.json());
 
 // Conexion con la BD
 const db = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "te20to00",
+    host: "vetpatito.mysql.database.azure.com",
+    user: "sergio",
+    password: "@Te20to00",
     database: "veterinaria",
     port: 3306,
 });
